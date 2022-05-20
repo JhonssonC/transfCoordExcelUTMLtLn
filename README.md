@@ -1,28 +1,27 @@
 # transfCoordExcelUTMLtLn
 
-VBA code (Excel) to transform UTM coordinates to LatLong and vice versa (Tested on the coast of Ecuador)
+Codigo VBA (Excel) para transformar coordenadas UTM a LatLong y viceversa (Probado en la costa de Ecuador)
 
-Execution Test:
-
+Prueba de Ejecucion:
 ![img](https://i.imgur.com/dpqTsTA.gif)
 
-to execute:
-* create an excel file with a specific sheet from which the code will obtain the references of which are the columns that contain coordinates:
+Para ejecutar: 
+* Cree un archivo excel con una hoja especifica de la cual el codigo obtendra las referencias de cuales son las columnas que contienen coordenadas:
 
 VAR
 
 ![Imgur1](https://i.imgur.com/eLyjWgp.png)
 
-* import the .bas .cls modules (special thanks to the post https://www.codeproject.com/Articles/828911/Recursive-VBA-JSON-Parser-for-Excel) from the excel VBA editor.
+* Importe los modulos .bas .cls  (agadecimiento especial al post https://www.codeproject.com/Articles/828911/Recursive-VBA-JSON-Parser-for-Excel) desde el editor de VBA de excel.
 
 ![Imgur2](https://i.imgur.com/doXrknC.png)
 
-* In Excel, build the following table on an empty sheet, paying special attention to the columns specified in the VAR sheet in the previous step. The columns must match the headers, not textually, but they must be the data specified in the VAR sheet.
+* En Excel construya en una hoja vacia la siguiente tabla poniendo especial atencion a las columnas especificadas en la hoja VAR en el paso anterior las columnas deben concordar con los encabezados, no textualmente pero si deben ser los datos que se especificaron el la hoja VAR.
 
 ![Imgur3](https://i.imgur.com/toouN3p.png)
 
-Execute the macro according to the need and requirement.
+Ejecutar la macro segun la necesidad y requerimiento.
 
-Once the table has data, it can be executed by selecting one or several elements from the CODE/ID column (column A), as long as there is reference data to perform the transformation, for example if I need to find Latitude and Longitude, I must have X and Y and if I need to transform to X and Y I need to have Latitude and Longitude.
+Una vez la tabla tenga datos se puede ejecutar seleccionando uno a varios elementos de la columna CODIGO/ID (columna A), esto siempre que haya datos de referencia para realizar la transformacion, por ejemplo si necesito encontrar Latitud y Longitud debo tener X y Y y si necesito transformar a X y Y necesito tener Latitud y Longitud.
 
 ![img](https://i.imgur.com/dpqTsTA.gif)
