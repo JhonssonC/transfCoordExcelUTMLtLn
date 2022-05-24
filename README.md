@@ -26,3 +26,6 @@ Execute the macro according to the need and requirement.
 Once the table has data, it can be executed by selecting one or several elements from the CODE/ID column (column A), as long as there is reference data to perform the transformation, for example if I need to find Latitude and Longitude, I must have X and Y and if I need to transform to X and Y I need to have Latitude and Longitude.
 
 ![img](https://i.imgur.com/dpqTsTA.gif)
+
+note:
+The selection can be one or several elements and it also supports elements only from a specified filter (previously the table data must be filtered in excel and it will only execute the macro on the selection without considering hidden rows).
